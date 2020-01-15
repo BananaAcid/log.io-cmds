@@ -10,8 +10,8 @@
   "bin": {
     "msg2logio": "msg2logio.js",
     "msg2logio.0.3": "msg2logio.old.js",
-    "msg2logiobare": "msg2logiomini.js",
-    "msg2logiobare.0.3": "msg2logiomini.old.js"
+    "msg2logiobare": "msg2logiobare.js",
+    "msg2logiobare.0.3": "msg2logiobare.old.js"
   },
   "keywords": [
     "log.io",

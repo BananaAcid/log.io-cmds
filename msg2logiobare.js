@@ -9,7 +9,7 @@
 */
 
 // target server config
-var conConfig = {port: '6689', host: 'localhost'};
+var conConfig = {port: 6689, host: 'localhost'};
 
 // constants
 var NOPARAMS = (process.argv.length <= 2);
@@ -17,7 +17,7 @@ var NOPARAMS = (process.argv.length <= 2);
 // show help:
 if (NOPARAMS) {
 	console.error('\nTalk to Log.io Server (this is a "3rd party Harvester") \n\
-Author: Nabil Redmann 2013, www.nabil-redmann.de \n\
+Author: Nabil Redmann 2020, www.nabil-redmann.de \n\
 docu: https://github.com/NarrativeScience/Log.io (for commands) \n\n\
 usage: ' + require('path').basename(process.argv[1]) + ' "+msg|service|server|(info) message to send" ... \n\
        - use info to prefix your message - can be any keyword or emoji ✔ ❌ ❤ ✨ \n\

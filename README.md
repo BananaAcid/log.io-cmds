@@ -1,24 +1,27 @@
 # log.io-cmds
-Helper tools to cennect to log.io server (logio.org)
+Helper tools to cennect to log.io server (logio.org) (osx, win, linux, ..)
 
 ## install
 ```
 > npm i BananaAcid/log.io-cmds#master -g
 ```
 
-## usage
+## usage (log.io v0.4.3+)
 ```
 > msg2logio -m "test message"
-> msg2logiobare "+msg|streamName1|sourceName1|this is log message"
+> msg2logiobare "+msg|streamName1|sourceName1|this is a log message"
 ```
+
+### note
+- If you prefer the Windows style, you may use `/param` or `/param=val`
+- the "bare" variant is only connecting to localhost - use it as a simple code example
 
 ## help
 ```
 > msg2logio --help
 
-
 Talk to Log.io Server (this is a "3rd party Harvester")
-Author: Nabil Redmann 2013, www.nabil-redmann.de
+Author: Nabil Redmann 2020, www.nabil-redmann.de
 docu: https://github.com/NarrativeScience/Log.io
 
 CONFIGURATION:
@@ -49,8 +52,14 @@ USAGE: msg2logio "+msg|service|server|info|message to send" "+msg|service|server
 
         this will send as (msg, username, hostname, info-flag, message):
         [
-                "+msg|nabil|BananaAcidX|info|message to send",
-                "+msg|nabil|BananaAcidX|info|second message to send",
+                "+msg|webservice|Server01|info|message to send",
+                "+msg|webservice|Server01|info|second message to send",
                 ...
         ]
+```
+
+## usage (log.io v0.3.4-)
+```
+> msg2logio.0.3 --log "test message"
+> msg2logiobare.0.3 "+log|streamName1|sourceName1|this is a log message"
 ```
