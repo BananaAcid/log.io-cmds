@@ -1,0 +1,34 @@
+{
+  "name": "log.io-cmds",
+  "version": "1.0.0",
+  "description": "Helper tools to cennect to log.io (logio.org)",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BananaAcid/log.io-cmds.git"
+  },
+  "bin": {
+    "msg2logio": "msg2logio.js",
+    "msg2logio.0.3": "msg2logio.old.js",
+    "msg2logiobare": "msg2logiomini.js",
+    "msg2logiobare.0.3": "msg2logiomini.old.js"
+  },
+  "keywords": [
+    "log.io",
+    "logio",
+    "tool",
+    "logging"
+  ],
+  "author": "Nabil Redmann <repo+log.io@BananaAcid.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BananaAcid/log.io-cmds/issues"
+  },
+  "homepage": "https://github.com/BananaAcid/log.io-cmds#readme",
+  "engines": {
+    "node": ">= 7.6",
+    "deno": ">= 1.0"
+  },
+  "scripts": {
+  }
+}
