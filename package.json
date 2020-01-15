@@ -30,5 +30,8 @@
     "deno": ">= 1.0"
   },
   "scripts": {
+  },
+  "devDependencies": {
+    "log.io": "^0.3.4"
   }
 }
