@@ -3,6 +3,10 @@ Helper tools to cennect to log.io server (logio.org) (osx, win, linux, ..)
 
 ## install
 ```
+> npm i log.io-cmds -g
+```
+or cutting edge: 
+```
 > npm i BananaAcid/log.io-cmds#master -g
 ```
 

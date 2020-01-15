@@ -1,6 +1,6 @@
 {
   "name": "log.io-cmds",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helper tools to cennect to log.io (logio.org)",
   "main": "",
   "repository": {
