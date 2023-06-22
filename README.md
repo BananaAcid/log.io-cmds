@@ -1,5 +1,5 @@
 # log.io-cmds
-Helper tools to cennect to log.io server (logio.org) (osx, win, linux, ..)
+Helper tools to cennect to log.io server ([logio.org](http://logio.org), [github](https://github.com/NarrativeScience-old/log.io)) (osx, win, linux, ..)
 
 ## install
 ```
